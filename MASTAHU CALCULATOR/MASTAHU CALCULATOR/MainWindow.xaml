@@ -1,0 +1,40 @@
+﻿<Window x:Class="MASTAHU_CALCULATOR.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="420" Width="664">
+    <Grid Height="374">
+        <Grid Height="196" HorizontalAlignment="Left" Margin="95,115,0,0" Name="grid1" VerticalAlignment="Top" Width="210">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Button Content="1" Height="38" HorizontalAlignment="Left" Margin="14,6,0,0" Name="BT1" VerticalAlignment="Top" Width="57" Click="BT1_Click" />
+            <Button Content="2" Grid.Column="1" Height="38" HorizontalAlignment="Left" Margin="13,6,0,0" Name="BT2" VerticalAlignment="Top" Width="49" Click="BT2_Click" />
+            <Button Content="3" Grid.Column="2" Height="38" HorizontalAlignment="Left" Margin="17,6,0,0" Name="BT3" VerticalAlignment="Top" Width="50" Click="BT3_Click" />
+            <Button Content="4" Grid.Row="1" Height="42" HorizontalAlignment="Left" Margin="14,6,0,0" Name="BT4" VerticalAlignment="Top" Width="57" Click="BT4_Click" />
+            <Button Content="5" Grid.Column="1" Grid.Row="1" Height="42" HorizontalAlignment="Left" Margin="13,6,0,0" Name="BT5" VerticalAlignment="Top" Width="49" Click="BT5_Click" />
+            <Button Content="6" Grid.Column="2" Grid.Row="1" Height="42" HorizontalAlignment="Left" Margin="17,6,0,0" Name="BT6" VerticalAlignment="Top" Width="50" Click="BT6_Click" />
+            <Button Content="7" Grid.Row="2" Height="38" HorizontalAlignment="Left" Margin="14,5,0,0" Name="BT7" VerticalAlignment="Top" Width="57" Click="BT7_Click" />
+            <Button Content="00" Grid.Row="3" Height="44" HorizontalAlignment="Left" Margin="14,7,0,0" Name="BT00" VerticalAlignment="Top" Width="57" Click="BT00_Click" />
+            <Button Content="8" Grid.Column="1" Grid.Row="2" Height="38" HorizontalAlignment="Left" Margin="13,5,0,0" Name="BT8" VerticalAlignment="Top" Width="49" Click="BT8_Click" />
+            <Button Content="9" Grid.Column="2" Grid.Row="2" Height="38" HorizontalAlignment="Left" Margin="17,5,0,0" Name="BT9" VerticalAlignment="Top" Width="50" Click="BT9_Click" />
+            <Button Content="0" Grid.Column="1" Grid.Row="3" Height="44" HorizontalAlignment="Left" Margin="13,7,0,0" Name="BT0" VerticalAlignment="Top" Width="49" Click="BT0_Click" />
+            <Button Content="." Grid.Column="2" Grid.Row="3" Height="44" HorizontalAlignment="Left" Margin="17,7,0,0" Name="BTDOT" VerticalAlignment="Top" Width="50" Click="BTDOT_Click" />
+        </Grid>
+        <Button Content="/" Height="23" HorizontalAlignment="Left" Margin="334,120,0,0" Name="BTD" VerticalAlignment="Top" Width="34" Click="BTD_Click" />
+        <Button Content="*" Height="23" HorizontalAlignment="Left" Margin="334,159,0,0" Name="BTM" VerticalAlignment="Top" Width="34" Click="BTM_Click" />
+        <Button Content="+" Height="23" HorizontalAlignment="Left" Margin="334,197,0,0" Name="BTA" VerticalAlignment="Top" Width="34" Click="BTA_Click" />
+        <Button Content="-" Height="23" HorizontalAlignment="Left" Margin="334,234,0,0" Name="BTS" VerticalAlignment="Top" Width="34" Click="BTS_Click" />
+        <Button Content="=" Height="23" HorizontalAlignment="Left" Margin="334,275,0,0" Name="BTE" VerticalAlignment="Top" Width="34" Click="BTE_Click" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="109,53,0,0" Name="TBDISPLAY" VerticalAlignment="Top" Width="259" Text="0" FlowDirection="RightToLeft" TextChanged="TBDISPLAY_TextChanged" />
+        <Label Content="MASTAHU CALCULATOR" Height="28" HorizontalAlignment="Left" Margin="139,16,0,0" Name="label1" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" Foreground="#FF2E2121" />
+        <Button Content="clear" Height="23" HorizontalAlignment="Left" Margin="166,313,0,0" VerticalAlignment="Top" Width="75" Name="BTclear" Click="BTclear_Click" />
+    </Grid>
+</Window>

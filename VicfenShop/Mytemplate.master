@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Mytemplate.master.cs" Inherits="Mytemplate" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <title></title>
+
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.css"/>
+    
+    <link rel="stylesheet" type="text/css" href="stylesheets/theme.css"/>
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css"/>
+
+   <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
+    <%--  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>--%>
+
+    <!-- Demo page code -->
+        <asp:ContentPlaceHolder id="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        #line-chart {
+            height:300px;
+            width:800px;
+            margin: 0px auto;
+            margin-top: 1em;
+        }
+        .brand { font-family: georgia, serif; }
+        .brand .first {
+            color: #ccc;
+            font-style: italic;
+        }
+        .brand .second {
+            color: #fff;
+            font-weight: bold;
+        }
+    </style>
+  <div class="navbar">
+        <div class="navbar-inner">
+                <ul class="nav pull-right">
+                    
+                </ul>
+                <a class="brand" href="index.html"><span class="first" style="font-size: 22px">Vicfen</span> <span class="second">Shop</span></a>
+        </div>
+    </div>
+
+   
+    <div>
+        <asp:ContentPlaceHolder id="MainContent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+</head>
+<body>
+ 
+  
+    <footer>
+                        <hr>
+
+                        <!-- Purchase a site license to remove this link from the footer: http://www.portnine.com/bootstrap-themes -->
+
+                        <p>© 2014 <a href="http://www.portnine.com/" target="_blank">V</a><a 
+                                href="http://www.portnine.com/">icfen Shop</a></p>
+                    </footer>
+</body>
+</html>

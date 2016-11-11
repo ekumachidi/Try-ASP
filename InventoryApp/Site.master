@@ -1,0 +1,153 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    
+    
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <meta name="author" content="University of Nigeria Distance Learning Programme Portal" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Force IE9 to render in normla mode -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link id="bootstrap" href="css/bootstrap/bootstrap.css" rel="stylesheet" type="text/css" />
+    <%--<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet" type="text/css" />--%>
+    <link href="css/supr-theme/jquery.ui.supr.css" rel="stylesheet" type="text/css"/>
+    <link href="css/icons.css" rel="stylesheet" type="text/css" />
+      <!-- Main stylesheets -->
+    <link href="css/main.css" rel="stylesheet" type="text/css" /> 
+        <!-- Important plugins put in all pages -->
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap/bootstrap.js"></script>  
+    <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="js/libs/jRespond.min.js"></script>
+
+    <!--[if IE 8]><link href="css/ie8.css" rel="stylesheet" type="text/css" /><![endif]-->
+    
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="js/libs/excanvas.min.js"></script>
+      <script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script type="text/javascript" src="js/libs/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/apple-touch-icon-144-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon-114-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-57-precomposed.png" />
+
+    <script type="text/javascript" src="js/libs/modernizr.js"></script>
+
+    </head>
+      
+    <body class="loginPage">
+
+    <div class="container">
+
+       <div id="header">
+        <nav class="navbar " role="navigation">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="welcome_home.aspx"><img src="images/logodoc.png" /></a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon16 icomoon-icon-arrow-4"></span>
+                </button>
+            </div> 
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-fixed-top">
+                    
+                    
+                
+                </ul>
+              
+                <ul class="nav navbar-right usernav">
+                    
+                    
+                </ul>
+            </div><!-- /.nav-collapse -->
+        </nav><!-- /navbar --> 
+
+    </div><!-- End #header -->
+
+    </div><!-- End .container -->  
+    
+    <asp:ContentPlaceHolder ID="MainContent" runat="server"/>  
+
+
+
+     <script type="text/javascript">
+         // document ready function
+         $(document).ready(function () {
+             //------------- Options for Supr - admin tempalte -------------//
+             var supr_Options = {
+                 rtl: false//activate rtl version with true
+             }
+             //rtl version
+             if (supr_Options.rtl) {
+                 localStorage.setItem('rtl', 1);
+                 $('#bootstrap').attr('href', 'css/bootstrap/bootstrap.rtl.min.css');
+                 $('#bootstrap-responsive').attr('href', 'css/bootstrap/bootstrap-responsive.rtl.min.html');
+                 $('body').addClass('rtl');
+                 $('#sidebar').attr('id', 'sidebar-right');
+                 $('#sidebarbg').attr('id', 'sidebarbg-right');
+                 $('.collapseBtn').addClass('rightbar').removeClass('leftbar');
+                 $('#content').attr('id', 'content-one')
+             } else { localStorage.setItem('rtl', 0); }
+
+             $("input, textarea, select").not('.nostyle').uniform();
+             $("#loginForm").validate({
+                 submitHandler: function (form) {
+                     $.pnotify({
+                         type: 'success',
+                         title: 'Great',
+                         text: 'No errors!',
+                         icon: 'picon icon16 iconic-icon-check-alt white',
+                         opacity: 0.95,
+                         history: false,
+                         sticker: false
+                     });
+                     setInterval(function () {
+                         form.submit();
+                     }, 2000);
+                 },
+                 rules: {
+                     username: {
+                         required: true,
+                         minlength: 4
+                     },
+                     password: {
+                         required: true,
+                         minlength: 6
+                     }
+                 },
+                 messages: {
+                     username: {
+                         required: "Fill me please",
+                         minlength: "My name is bigger"
+                     },
+                     password: {
+                         required: "Please provide a password",
+                         minlength: "My password is more that 6 chars"
+                     }
+                 }
+             });
+         });
+    </script> 
+    <div style="position:fixed; bottom:0px;  width:100%; border-top:1px solid #CCCCCC; background-color:#FFFFFF"><span style=" float:left;  margin-left:100px;  margin-top:20px; margin-bottom:10px;">Copyright 2015 Tenece Professional Services</span><img src="images/pt.JPG" style=" float:right;  margin-right:100px;" /></div>
+    </body>
+
+
+</html>

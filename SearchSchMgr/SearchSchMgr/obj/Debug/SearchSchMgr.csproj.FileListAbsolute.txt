@@ -1,0 +1,4 @@
+C:\Users\user\Documents\Visual Studio 2010\Projects\SearchSchMgr\SearchSchMgr\bin\SearchSchMgr.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\SearchSchMgr\SearchSchMgr\bin\SearchSchMgr.pdb
+C:\Users\user\Documents\Visual Studio 2010\Projects\SearchSchMgr\SearchSchMgr\obj\Debug\SearchSchMgr.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\SearchSchMgr\SearchSchMgr\obj\Debug\SearchSchMgr.pdb

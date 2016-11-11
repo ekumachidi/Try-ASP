@@ -1,0 +1,37 @@
+c:\users\uvie gordon\documents\visual studio 2010\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\bin\Debug\MASTAHU CALCULATOR.exe
+c:\users\uvie gordon\documents\visual studio 2010\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\bin\Debug\MASTAHU CALCULATOR.pdb
+c:\users\uvie gordon\documents\visual studio 2010\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\uvie gordon\documents\visual studio 2010\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\MainWindow.baml
+c:\users\uvie gordon\documents\visual studio 2010\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\MainWindow.g.cs
+c:\users\uvie gordon\documents\visual studio 2010\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\App.g.cs
+c:\users\uvie gordon\documents\visual studio 2010\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\MASTAHU CALCULATOR_MarkupCompile.cache
+c:\users\uvie gordon\documents\visual studio 2010\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\MASTAHU CALCULATOR.g.resources
+c:\users\uvie gordon\documents\visual studio 2010\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\MASTAHU_CALCULATOR.Properties.Resources.resources
+c:\users\uvie gordon\documents\visual studio 2010\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\uvie gordon\documents\visual studio 2010\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\uvie gordon\documents\visual studio 2010\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\MASTAHU CALCULATOR.exe
+c:\users\uvie gordon\documents\visual studio 2010\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\MASTAHU CALCULATOR.pdb
+J:\VisualC#\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\MASTAHU CALCULATOR.exe
+J:\VisualC#\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\MASTAHU CALCULATOR.pdb
+J:\VisualC#\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\bin\Debug\MASTAHU CALCULATOR.exe
+J:\VisualC#\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\bin\Debug\MASTAHU CALCULATOR.pdb
+J:\VisualC#\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\ResolveAssemblyReference.cache
+J:\VisualC#\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\MainWindow.baml
+J:\VisualC#\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\MainWindow.g.cs
+J:\VisualC#\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\App.g.cs
+J:\VisualC#\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\MASTAHU CALCULATOR_MarkupCompile.cache
+J:\VisualC#\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\MASTAHU CALCULATOR.g.resources
+J:\VisualC#\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\MASTAHU_CALCULATOR.Properties.Resources.resources
+J:\VisualC#\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\GenerateResource.read.1.tlog
+J:\VisualC#\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\EkumaC\Documents\VisualC#\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\MASTAHU CALCULATOR.exe
+C:\Users\EkumaC\Documents\VisualC#\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\MASTAHU CALCULATOR.pdb
+C:\Users\EkumaC\Documents\VisualC#\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\bin\Debug\MASTAHU CALCULATOR.exe
+C:\Users\EkumaC\Documents\VisualC#\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\bin\Debug\MASTAHU CALCULATOR.pdb
+C:\Users\EkumaC\Documents\VisualC#\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\MainWindow.baml
+C:\Users\EkumaC\Documents\VisualC#\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\MainWindow.g.cs
+C:\Users\EkumaC\Documents\VisualC#\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\App.g.cs
+C:\Users\EkumaC\Documents\VisualC#\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\MASTAHU CALCULATOR_MarkupCompile.cache
+C:\Users\EkumaC\Documents\VisualC#\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\MASTAHU CALCULATOR.g.resources
+C:\Users\EkumaC\Documents\VisualC#\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\MASTAHU_CALCULATOR.Properties.Resources.resources
+C:\Users\EkumaC\Documents\VisualC#\Projects\MASTAHU CALCULATOR\MASTAHU CALCULATOR\obj\x86\Debug\MASTAHU CALCULATOR.csproj.GenerateResource.Cache

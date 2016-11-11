@@ -1,0 +1,5 @@
+J:\VisualC#\ProgramControl\ProgramControl\obj\x86\Debug\ResolveAssemblyReference.cache
+J:\VisualC#\ProgramControl\ProgramControl\bin\Debug\ProgramControl.exe
+J:\VisualC#\ProgramControl\ProgramControl\bin\Debug\ProgramControl.pdb
+J:\VisualC#\ProgramControl\ProgramControl\obj\x86\Debug\ProgramControl.exe
+J:\VisualC#\ProgramControl\ProgramControl\obj\x86\Debug\ProgramControl.pdb
